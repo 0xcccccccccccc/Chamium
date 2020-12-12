@@ -1,0 +1,11 @@
+.BoxItem{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.ColorBlock{
+    border: azure;
+    border-radius: 5px;
+    border-width: 3px;
+}

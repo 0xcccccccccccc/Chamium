@@ -1,0 +1,81 @@
+
+.normal {
+  font-family: Georgia, sans-serif;
+  margin-top: 4em;
+  text-align: center;
+}
+
+.welcome {
+
+  background: url(../../assets/background.png) ;
+  width: 58px;
+  height: 580px;
+  float: left;
+
+}
+.header{
+  height:100px;
+}
+.button1{
+
+  z-index: 100;
+  position: absolute;
+  background:#D540B1;
+ 
+  text-align: center;
+  top:60%;
+  left:53%;
+  font-size: 36px;
+  text-align: center;
+  height: 100px;
+  width: 260px;
+  
+
+}
+.button2{
+
+  z-index: 100;
+  position: absolute;
+  background:#3eaa8a;
+ 
+  text-align: center;
+  top:60%;
+  left:33%;
+  font-size: 36px;
+  text-align: center;
+  height: 100px;
+  width: 260px;
+  
+
+}
+.text1{
+  z-index: 102;
+  position: absolute;
+  size:100px;
+  top:40%;
+  left:27%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 120px;
+  color: #fff;
+}
+.background {
+  z-index: 2;
+
+  background: url(../../assets/background2.png) no-repeat center center;
+  height: 1000px;
+
+  background-size: 100% 100%;
+  transition:100s;
+  -webkit-transition:ease-out 10s;
+
+}
+.background:hover{
+  -webkit-transform : scale(0.8);
+}
+
+.body2{
+  position: relative;
+}
+.list code {
+  background: brown;
+}
