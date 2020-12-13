@@ -1,14 +1,19 @@
 import React, { Component } from 'react';
-import { Button } from 'antd';
-import Color from '../../components/Color/Color'
-  import { formatCountdown } from 'antd/lib/statistic/utils';
+import Imagebox from '../../components/Color/Imagebox/Imagebox.jsx';
+import Dropbox from '../../components/Color/Dropbox/Dropbox.jsx';
+import Colorbox from '../../components/Color/Colorbox/Colorbox.jsx';
+import styles from './index.css';
 export default function() {
 
 
   return (
-    
-     
-    <Color/>
-    
-    );
-  }
+      <div className={styles.color}>
+
+        <div style={{ display: "flex"}}>
+          <Colorbox/>
+          <Imagebox/>
+        </div>
+        <Dropbox/>
+      </div>
+  );
+}

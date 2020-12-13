@@ -1,0 +1,21 @@
+.BoxItem{
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+.ColorBlock{
+    border: azure;
+    border-radius: 5px;
+    border-width: 3px;
+}
+.ColorBox{
+    width:80%;
+    height:auto;
+    margin-left: 10%;
+
+}
+.ColorBlockText{
+    font-size:36px;
+    color: white;
+}

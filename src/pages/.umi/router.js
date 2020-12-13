@@ -25,8 +25,8 @@ const routes = [
         _title_default: 'web',
       },
       {
-        path: '/test_mysql',
-        component: require('../test_mysql/index').default,
+        path: '/links',
+        component: require('../links/index').default,
         exact: true,
         _title: 'web',
         _title_default: 'web',
@@ -60,9 +60,16 @@ const routes = [
         _title_default: 'web',
       },
       {
+        path: '/colorbar',
+        component: require('../colorbar/index').default,
+        exact: true,
+        _title: 'web',
+        _title_default: 'web',
+      },
+      {
         component: () =>
           React.createElement(
-            require('D:/2/5/Chamium/node_modules/umi-build-dev/lib/plugins/404/NotFound.js')
+            require('/home/ma/Web-latest/Chamium/node_modules/umi-build-dev/lib/plugins/404/NotFound.js')
               .default,
             { pagesPath: 'src/pages', hasRoutesInConfig: true },
           ),
@@ -76,7 +83,7 @@ const routes = [
   {
     component: () =>
       React.createElement(
-        require('D:/2/5/Chamium/node_modules/umi-build-dev/lib/plugins/404/NotFound.js')
+        require('/home/ma/Web-latest/Chamium/node_modules/umi-build-dev/lib/plugins/404/NotFound.js')
           .default,
         { pagesPath: 'src/pages', hasRoutesInConfig: true },
       ),

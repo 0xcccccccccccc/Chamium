@@ -1,4 +1,26 @@
+@font-face {
+  font-family: 'airbnb_cerealblack';
+  src: url('../../assets/font/airbnbcereal-black-webfont.woff2') format('woff2'),
+  url('../../assets/font/airbnbcereal-black-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'myriadbold';
+  src: url('../../assets/font/myriad-bold-webfont.woff2') format('woff2'),
+  url('../../assets/font/myriad-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 
+
+}
+@font-face {
+  font-family: 'airbnb_cereallight';
+  src: url('../../assets/font/airbnbcereal-light-webfont.woff2') format('woff2'),
+  url('../../assets/font/airbnbcereal-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 .normal {
   font-family: Georgia, sans-serif;
   margin-top: 4em;
@@ -20,32 +42,35 @@
 
   z-index: 100;
   position: absolute;
-  background:#D540B1;
- 
+  background:#2b2747;
+  border-color: #2b2747;
   text-align: center;
-  top:60%;
-  left:53%;
-  font-size: 36px;
+  top:22px;
+  left:1268px;
+  font-size: 20px;
   text-align: center;
-  height: 100px;
-  width: 260px;
-  
+  height: 50px;
+  width: 140px;
+  font-family: airbnb_cereallight;
+  /* box-shadow: 2px 10px 5px #2b2b2b; */
 
 }
 .button2{
 
   z-index: 100;
   position: absolute;
-  background:#3eaa8a;
- 
+  background:#5d90ff;
+  border-color: #5d90ff;
+  font-family: airbnb_cereallight;
   text-align: center;
-  top:60%;
-  left:33%;
+  top:65%;
+  left:40%;
   font-size: 36px;
   text-align: center;
-  height: 100px;
+  height: 69px;
+  box-shadow: 2px 10px 5px #1d1d1d;
   width: 260px;
-  
+
 
 }
 .text1{
@@ -53,10 +78,11 @@
   position: absolute;
   size:100px;
   top:40%;
-  left:27%;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  left:18%;
+  font-family: myriadbold;
   font-size: 120px;
   color: #fff;
+  /* text-shadow: 2px 10px 5px #2b2b2b; */
 }
 .background {
   z-index: 2;

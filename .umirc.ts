@@ -16,11 +16,13 @@ const config: IConfig =  {
       component: '../layouts/index',
       routes: [
         { path: '/', component: '../pages/index' },
-        { path: '/test_mysql', component: '../pages/test_mysql/index'},
+        { path: '/links', component: '../pages/links/index'},
         { path: '/login', component: '../pages/login/index'},
         { path: '/main', component: '../pages/main/index'},
         { path: '/spider', component: '../pages/spider/index'},
         { path: '/color', component: '../pages/color/index'},
+        { path: '/colorbar', component: '../pages/colorbar/index'},
+
       ]
     }
   ],

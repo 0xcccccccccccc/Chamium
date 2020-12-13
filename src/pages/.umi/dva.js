@@ -20,7 +20,7 @@ export function _onCreate() {
     app.use(plugin);
   });
   
-  app.model({ namespace: 'test', ...(require('D:/2/5/Chamium/src/models/test.ts').default) });
+  app.model({ namespace: 'test', ...(require('/home/ma/Web-latest/Chamium/src/models/test.ts').default) });
   return app;
 }
 
