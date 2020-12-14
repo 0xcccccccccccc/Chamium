@@ -3,7 +3,7 @@ import { Button, Table,Input } from 'antd';
 import { connect } from 'dva'
 
 
-const Spider = props => {
+const Search = props => {
     const { dispatch,mes,Mysql_data,spider_data,spider_mes} = props;
     var obj1=new Object();
     let inputValue;
@@ -71,4 +71,4 @@ export  default connect(({ test: {mes,Mysql_data,spider_data,spider_mes},}) => (
     spider_data,
     spider_mes
     
-  }))(Spider);
+  }))(Search);
